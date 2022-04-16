@@ -260,13 +260,29 @@ body {font-family: 'Comic Neue', cursive;font-weight: 700}
 /* Extra Small ( Mobile ) */
 
 @media (max-width: 575.98px) {
+    html {width: fit-content;}
+
+    .header1 .header2 .resp h2 {
+        margin: 20px auto;
+    }
+
+    .contact-us form .contact1 {
+        width: 100%;
+        float: none;
+    }
+
+    .contact-us form .contact2 {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
     .navbar-brand span {padding-left: 12px}
 
     .navbar-light .navbar-toggler {margin-right: 10px}
 
     .navbar-expand-lg .navbar-nav {padding-left: 13px}
 
-    .header1 .header2 .resp {width: 450px;margin-left: 1rem}
+    .header1 .header2 .resp {width: 450px;margin-left: 0px}
 
     .about {padding-top: 25px;padding-bottom: 25px}
 
