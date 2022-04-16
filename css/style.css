@@ -1,0 +1,366 @@
+body {font-family: 'Comic Neue', cursive;font-weight: 700}
+
+/***** Start Overriding Bootstrap *****/
+.navbar {padding: 0}
+
+.navbar-brand {font-size: 30px}
+
+.navbar-brand span{color: #F9A826}
+
+.navbar-expand-lg .navbar-nav {font-size: 20px}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    color: #F9A826
+}
+
+.navbar-light .navbar-nav .active > .nav-link {color: #F9A826}
+
+.dropdown-menu {background-color: #f8f9fa; border-top: 2px solid #F9A826}
+
+.dropdown-menu  > a {
+    color: #333;
+    padding: 7px 20px;
+    -webkit-transition: padding 0.3s ease;
+    -moz-transition: padding 0.3s ease;
+    -o-transition: padding 0.3s ease;
+    transition: padding 0.3s ease
+}
+
+.dropdown-menu .dropdown-divider {border-top: 1px solid #F9A826}
+
+.dropdown-menu > a:hover,
+.dropdown-menu > a:focus {color:#333;padding-left: 30px;background-color: #F9A826}
+
+/***** End Overriding Bootstrap *****/
+
+/* Start Header Section */
+
+.header1
+{padding-top: 60px;padding-bottom: 20px}
+
+.header1 .header2 .resp {width: 483px; margin-left: 2rem}
+
+.header1 .header2 .resp h2 {
+    margin: 20px 123px;
+    background:none;
+	color:#F9A826;
+	border:2px solid #F9A826;
+    padding:10px;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    width:260px
+}
+
+.header1 .header2 .resp img {width: 50%;margin: auto}
+
+.header1 .header2 .resp p {text-align: center;color: #555;padding: 10px}
+
+.header1 .header2 .resp button {
+    margin-left: 10rem;
+    margin-top: 20px;
+    background:none;
+	color:#F9A826;
+	font-size:20px;
+    border:2px solid #F9A826;
+    border-radius: 10px;
+	font-weight:bold;
+    padding:10px 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out
+}
+
+.header1 .header2 .resp button:hover {background-color: #F9A826;color: #FFF}
+
+.header1 .header2 .intro {float: left;width: 30%} 
+
+.header1 .header2 .intro h2 {
+    margin: 100px auto 20px;
+    background:none;
+	color:#F9A826;
+	border:2px solid #F9A826;
+    padding:10px;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    width:260px
+}
+
+.header1 .header2 .intro p {text-align: center;color: #555}
+
+.header1 .header2 .intro button {
+    margin-left: 70px;
+    margin-top: 20px;
+    background:none;
+	color:#F9A826;
+	font-size:20px;
+    border:2px solid #F9A826;
+    border-radius: 10px;
+	font-weight:bold;
+    padding:10px 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out
+}
+
+.header1 .header2 .intro button:hover {background-color: #F9A826;color: #FFF}
+
+.header1 .header2 .outro {float: right;width: 70%}
+
+.header1 .header2 .outro img {width: 100%}
+
+/* End Header Section */
+
+/* Start About Section */
+
+.about {padding-top: 60px;padding-bottom: 60px;background-color: #f8f9fa}
+
+.about p {color: #555}
+
+.about span {font-weight: bold;color: #F9A826}
+
+/* End About Section */
+
+/* Start Features Section */
+
+.features {padding-top: 60px;padding-bottom: 60px}
+
+.features h2 {margin-bottom: 20px}
+
+.features hr {width: 64px;background-color: rgb(255, 157, 0)}
+
+.features img {margin-bottom: 10px;width: 150px;height: 150px}
+
+.features p {line-height: 2em;color: #555}
+
+/* End Features Section */
+
+/* Start Our Courses Section */
+
+.courses {
+    background: url('../images/back1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 600px
+}
+
+.courses .all {
+    background: rgba(2, 2, 2, 0.8);
+    min-height: 600px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #FFF
+}
+
+.courses .all hr {width: 64px;background-color: rgb(255, 157, 0);margin-bottom: 40px}
+
+.courses .all .course {background-color: #EEE;height: 430px;border-radius: 20px}
+
+.courses .all .course img {
+    width: 300px;
+    height: 250px;
+    padding: 10px 5px;
+    border-radius: 20px
+}
+
+.courses .all .course h3 {color: #F9A826}
+
+.courses .all .course p {color: #555}
+
+.courses .all .course .btn1 {background-color: #EEE;color: #F9A826;margin-top: 0}
+
+.courses .all .course .btn2 {background-color: #EEE;color: #F9A826;margin-top: 0}
+
+.courses .all .course .btn2:hover {background-color: #F9A826;color: #EEE}
+
+.courses .all  button {
+    text-align: center;
+    margin-top: 50px;
+    padding: 5px;
+    color: #FFF;
+    background: none;
+    border: 2px solid #F9A826;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out
+}
+
+.courses .all  button:hover {background-color: #F9A826;color: #FFF}
+
+/* End Our Courses Section */
+
+/* Start Contact Us Section */
+
+.contact-us {padding-top: 40px;padding-bottom: 20px}
+
+.contact-us .fields {min-height: 300px;padding-top: 40px;padding-bottom: 40px}
+
+.contact-us .fields hr {width: 64px;background-color: rgb(255, 157, 0);margin-bottom: 40px}
+
+.contact-us form {width: 100%}
+
+.contact-us form .contact1 {width: 50%;float: left}
+
+.contact-us form .contact2 {width: 50%;float: right}
+
+.contact-us form .contact2 .btn {background-color: #F9A826;border: 2px solid #F9A826}
+
+.contact-us p {margin-bottom: 40px}
+
+.contact-us textarea {height: 110px}
+
+.contact-us input[type="text"],
+.contact-us textarea {background: rgba(228, 228, 228, 0.8);color: #000000;border: none}
+
+.contact-us form h5.respon {
+    width: 300px; 
+    text-align: center; 
+    border-bottom: 1px solid #F9A826; 
+    line-height: 0.1em;
+    margin: 220px auto 36px;
+    color:#666
+} 
+
+.contact-us form h5 {
+    width: 300px; 
+    text-align: center; 
+    border-bottom: 1px solid #F9A826; 
+    line-height: 0.1em;
+    margin: 220px 23px 45px 431px;
+    color:#666
+} 
+
+.contact-us  form h5 span {background:#fff; padding: 0 5px}
+
+.contact-us form ul {list-style:none;padding-left:0}
+
+.contact-us  form ul li {display:inline-block; cursor: pointer}
+
+/* End Contact Us Section */
+
+/* Start Footer Section */
+
+.footer .end {background-color: #EEE;padding-top: 20px;padding-bottom: 2px}
+
+/* End Footer Section */
+
+/**************** Start Media Query ****************/
+
+/* Extra Small ( Mobile ) */
+
+@media (max-width: 575.98px) {
+    .navbar-brand span {padding-left: 12px}
+
+    .navbar-light .navbar-toggler {margin-right: 10px}
+
+    .navbar-expand-lg .navbar-nav {padding-left: 13px}
+
+    .header1 .header2 .resp {width: 450px;margin-left: 1rem}
+
+    .about {padding-top: 25px;padding-bottom: 25px}
+
+    .about p {color: #555;font-size: 1rem;margin-bottom: 0}
+
+    .courses .all .course {height: 430px;width: 340px;margin-bottom: 30px}
+
+    .contact-us {padding-bottom: 0}
+
+}
+
+/* Small */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header1 .header2 .resp1 {width: 483px}
+    
+    .header1 .header2 .resp1 h2 {
+        margin: 20px 130px;
+        background:none;
+        color:#F9A826;
+        border:2px solid #F9A826;
+        padding:10px;
+        border-left: none;
+        border-right: none;
+        text-align: center;
+        width:260px
+    }
+    
+    .header1 .header2 .resp1 img {width: 100%;margin-left: 1rem}
+    
+    .header1 .header2 .resp1 p {
+        text-align: center;
+        color: #555;
+        padding: 10px;
+        margin-left: 3rem
+    }
+    
+    .header1 .header2 .resp1 button {
+        margin-left: 13rem;
+        margin-top: 20px;
+        background:none;
+        color:#F9A826;
+        font-size:20px;
+        border:2px solid #F9A826;
+        border-radius: 10px;
+        font-weight:bold;
+        padding:10px 30px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out
+    }
+    
+    .header1 .header2 .resp1 button:hover {background-color: #F9A826;color: #FFF}
+
+    .about {padding-top: 25px;padding-bottom: 25px}
+
+    .about p {color: #555;font-size: 1rem;margin-bottom: 0}
+
+    .courses .all .course {height: 430px;width: 340px;margin-bottom: 30px}
+
+    .contact-us form h5 {margin: 220px 23px 45px 121px}
+
+}
+
+/* Medium Screen ( Tablets ) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header1 .header2 .outro img {width: 90%;margin-left: 50px}
+
+    .header1 .header2 .intro button {padding: 10px}
+
+    .about {padding-top: 25px;padding-bottom: 5px}
+
+    .courses .all .course {width: 340px;margin-bottom: 20px}
+
+    .courses .all .course.cent {margin: 1.5rem 11rem}
+
+    .contact-us form h5 {margin: 220px 23px 45px 218px}
+
+    .contact-us .fields {padding: 0}
+}
+
+/* Large Screen ( Desktops ) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .contact-us form h5 {margin: 220px 23px 45px 340px}
+}
+
+/* Large Screen ( Large Desktop ) */
+
+@media (min-width: 1200px) 
+{
+
+}
+
+/**************** End Media Query *****************/
